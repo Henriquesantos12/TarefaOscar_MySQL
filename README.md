@@ -11,10 +11,12 @@
 
 ###### USO DOS COMANDOS SQL
 
-1)-Quantas vezes Natalie Portman foi indicada ao Oscar? R: Ela foi indicadas 3 vezes.
+1)-Quantas vezes Natalie Portman foi indicada ao Oscar?
+R: Ela foi indicadas 3 vezes.
 QUERY EM SQL SELECT COUNT(*) FROM oscar WHERE name LIKE '%Natalie Portman%';
 
-2)-Quantos Oscars Natalie Portman ganhou? R: Ela venceu uma vez.
+2)-Quantos Oscars Natalie Portman ganhou?
+R: Ela venceu uma vez.
 QUERY EM SQL SELECT COUNT(*) FROM oscar WHERE name LIKE '%Natalie Portman%' AND winner LIKE '%True%';
 
 3)-Amy Adams já ganhou algum Oscar?
